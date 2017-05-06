@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Predix Seed</title>
+      <base href="/">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+      <script type='application/javascript' src='bower_components/px/dist/px.min.js'></script>
+      <!-- Just needed for IE -->
+      <script src="bower_components/es6-promise/dist/es6-promise.min.js"></script>
+      <!-- Requires Webcomponents.js polyfill is provided by the page for browsers that don't support html imports -->
+      <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+      <link rel="import" href="polymer-loader.vulcanized.html">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style type="text/css">
+         body {
+         font-family: "Lato", sans-serif;
+         }
+      </style>
+   </head>
+   <body unresolved class="app" data-ng-controller="MainCtrl">
+      
+      <div class="viewport">
+         <div class="content-wrapper">
+            <main class="u-pt-- u-pr-- u-pl--" role="main">
+               <section role="region" ui-view></section>
+            </main>
+         </div>
+      </div>
+   </body>
+   <script>
+      // IE11 workaround: We can't rely on IE's load order for scripts that are loaded outside of require.js (might
+      //  be an issue with the web components polyfill), so we wait for the HTMLImportsLoaded event to ensure our
+      //  web components' scripts have loaded.
+      window.addEventListener('HTMLImportsLoaded', function(e) {
+          var elScript = document.createElement('script');
+          elScript.setAttribute('src', 'bower_components/requirejs/require.js');
+          elScript.setAttribute('data-main', 'scripts/bootstrapper.js');
+          document.getElementsByTagName('body')[0].appendChild(elScript);
+      });
+   </script>
+</html>

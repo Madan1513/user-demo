@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Madan",
+    "password": "test123",
+    "designation": "trainee",
+    "gender": "female",
+    "email": "bethcalderon@quotezart.com",
+    "phone": "+1 (913) 421-2630",
+    "address": "697 Thornton Street, Sterling, Virgin Islands, 5915",
+    "role": "admin"
+  },
+  {
+    "name": "Ester Mcconnell",
+    "password": "test123",
+    "designation": "TA",
+    "gender": "female",
+    "email": "estermcconnell@quotezart.com",
+    "phone": "+1 (954) 592-2414",
+    "address": "859 Heyward Street, Topanga, Louisiana, 2644",
+    "role": "admin"
+  },
+  {
+    "name": "Pragyan",
+    "password": "test123",
+    "designation": "AM",
+    "gender": "female",
+    "email": "enidbates@quotezart.com",
+    "phone": "+1 (966) 408-3517",
+    "address": "810 Langham Street, Waterview, Ohio, 4794",
+    "role": "user"
+  },
+  {
+    "name": "Gena Mckee",
+    "password": "test123",
+    "designation": "HR",
+    "gender": "female",
+    "email": "genamckee@quotezart.com",
+    "phone": "+1 (927) 568-2658",
+    "address": "697 Albemarle Terrace, Centerville, Connecticut, 8362",
+    "role": "user"
+  },
+  {
+    "name": "Gentry Richardson",
+    "password": "test123",
+    "designation": "TC",
+    "gender": "male",
+    "email": "gentryrichardson@quotezart.com",
+    "phone": "+1 (953) 421-2813",
+    "address": "267 Manor Court, Springville, North Carolina, 4974",
+    "role": "user"
+  },
+  {
+    "name": "Lara Savage",
+    "password": "test123",
+    "designation": "AC",
+    "gender": "male",
+    "email": "larasavage@quotezart.com",
+    "phone": "+1 (953) 484-3926",
+    "address": "386 Judge Street, Harrison, Oregon, 6632",
+    "role": "user"
+  },
+  {
+    "name": "Dena Roth",
+    "password": "test123",
+    "designation": "TL",
+    "gender": "female",
+    "email": "denaroth@quotezart.com",
+    "phone": "+1 (840) 458-3834",
+    "address": "364 Minna Street, Bloomington, Arkansas, 5054",
+    "role": "user"
+  }
+]
